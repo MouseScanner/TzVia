@@ -120,6 +120,9 @@ celery -A tasks worker --loglevel=info
 ### POST /train_model
 Дообучение модели DistilBERT на датасете IMDB.
 
+![image](https://github.com/user-attachments/assets/4fa5a3d3-1581-47ee-9433-914e348e39b1)
+
+
 ### POST /populate_database
 Заполнение базы данных тестовыми данными из IMDB.
 
