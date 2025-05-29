@@ -2,6 +2,9 @@
 
 Сервис для поиска похожих отзывов о фильмах с использованием DistilBERT и векторного поиска.
 
+![image](https://github.com/user-attachments/assets/813b0166-16ae-400a-ad78-8f1b4bbeeac1)
+
+
 ## Технологический стек
 
 - **FastAPI** - веб-фреймворк
@@ -51,6 +54,9 @@ uvicorn app:app --reload --port 83
 celery -A tasks worker --loglevel=info
 ```
 
+![image](https://github.com/user-attachments/assets/19336be0-e180-42e4-b26a-3eb943d3a7ec)
+
+
 ## API Endpoints
 
 ### POST /add_review
@@ -88,8 +94,13 @@ celery -A tasks worker --loglevel=info
 }
 ```
 
+
+
 ### GET /status/{task_id}
 Проверка статуса выполнения задачи.
+
+![image](https://github.com/user-attachments/assets/d1ce58a9-1264-47e1-a705-6aa8ac3719df)
+
 
 **Ответ:**
 ```json
